@@ -1,0 +1,35 @@
+$maincolor : rgb(40,40,40); 
+$text_color : white; 
+$sidebar_width : 6.5vw; 
+
+.yt-options{
+    background-color: $maincolor;
+    height: 100vh;
+    position: fixed;
+}
+
+.yt-options-btn{
+    background-color: $maincolor;
+    border: solid $maincolor 0.1px; 
+    margin-bottom: 2.5vw;
+    display: flex;
+    width: $sidebar_width;
+    justify-content: center;
+    flex-direction: column; 
+}.yt-options-btn:hover{
+    background-color: rgb(90,90,90);
+}
+
+.yt-options-btn-img{
+    width: 2.5vw; height: 2.5vw;
+    margin-left: 1.5vw;
+    margin-top: 2vw;
+}
+
+.yt-options-btn-name{
+    color: $text_color;
+    display: flex;
+    justify-content: center;
+}
+
+

@@ -1,0 +1,15 @@
+$maincolor : rgb(25,25,25); 
+
+html{
+    background-color: $maincolor;
+}
+
+.yt-home-divs{
+    display: grid;
+    grid-template-columns: 6.5vw 90vw;
+}
+
+
+
+
+

@@ -1,0 +1,11 @@
+html {
+  background-color: #191919;
+}
+
+.yt-home-divs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 6.5vw 90vw;
+      grid-template-columns: 6.5vw 90vw;
+}
+/*# sourceMappingURL=global_styles.css.map */

@@ -1,0 +1,44 @@
+.yt-options {
+  background-color: #282828;
+  height: 100vh;
+  position: fixed;
+}
+
+.yt-options-btn {
+  background-color: #282828;
+  border: solid #282828 0.1px;
+  margin-bottom: 2.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 6.5vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.yt-options-btn:hover {
+  background-color: #5a5a5a;
+}
+
+.yt-options-btn-img {
+  width: 2.5vw;
+  height: 2.5vw;
+  margin-left: 1.5vw;
+  margin-top: 2vw;
+}
+
+.yt-options-btn-name {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=sidebar_styles.css.map */
