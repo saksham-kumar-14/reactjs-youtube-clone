@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300&display=swap");
+.searching-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 3vw;
+}
+
+.search-box {
+  width: 45vw;
+  outline: none;
+  border: solid #646464 0.1vw;
+  background-color: #1e1e1e;
+  color: #d2d2d2;
+  font-family: 'Koh Santepheap', cursive;
+  font-size: 1vw;
+}
+
+.search-box::-webkit-input-placeholder {
+  color: #646464;
+  font-family: 'Koh Santepheap', cursive;
+  font-size: 1vw;
+}
+
+.search-box:-ms-input-placeholder {
+  color: #646464;
+  font-family: 'Koh Santepheap', cursive;
+  font-size: 1vw;
+}
+
+.search-box::-ms-input-placeholder {
+  color: #646464;
+  font-family: 'Koh Santepheap', cursive;
+  font-size: 1vw;
+}
+
+.search-box::placeholder {
+  color: #646464;
+  font-family: 'Koh Santepheap', cursive;
+  font-size: 1vw;
+}
+
+.search-btn {
+  border: none;
+  width: 5vw;
+  background-color: #373737;
+}
+
+.search-btn:hover {
+  cursor: pointer;
+}
+
+.search-icon-img {
+  width: 1.8vw;
+  height: 1.8vw;
+}
+
+.recommended-topics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1vw;
+  padding: 0.5vw;
+  border-top: solid #3c3c3c 0.1vw;
+  border-bottom: solid #3c3c3c 0.1vw;
+}
+
+.nav-btns {
+  width: 2.5vw;
+  height: 2.5vw;
+  border: none;
+  border-radius: 5vw;
+  background-color: #3c3c3c;
+}
+
+.nav-btn-imgs {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+#prev-nav-btn {
+  margin-right: 25vw;
+}
+
+#next-nav-btn {
+  margin-left: 25vw;
+}
+
+.recommended-topic-btn {
+  border: solid #d2d2d2 0.01vw;
+  border-radius: 5vw;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  color: white;
+  background-color: #3c3c3c;
+}
+
+.recommended-topic-btn:hover {
+  background-color: #787878;
+  cursor: pointer;
+}
+
+.yt-logo-img {
+  margin-right: 2vw;
+}
+/*# sourceMappingURL=header_styles.css.map */

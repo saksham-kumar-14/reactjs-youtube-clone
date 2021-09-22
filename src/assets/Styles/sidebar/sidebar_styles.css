@@ -23,6 +23,7 @@
 
 .yt-options-btn:hover {
   background-color: #5a5a5a;
+  cursor: pointer;
 }
 
 .yt-options-btn-img {

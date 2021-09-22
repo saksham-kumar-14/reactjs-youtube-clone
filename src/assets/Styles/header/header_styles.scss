@@ -1,0 +1,81 @@
+$nav-btn-size : 2.5vw; 
+
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300&display=swap');
+
+.searching-div{
+    display: flex;
+    justify-content: center;
+    height: 3vw;
+}
+
+.search-box{
+    width: 45vw;
+    outline: none;
+    border: solid rgb(100,100,100) 0.1vw;
+    background-color: rgb(30,30,30);
+    color: rgb(210,210,210);
+    font-family: 'Koh Santepheap', cursive;
+    font-size: 1vw;
+}.search-box::placeholder{
+    color: rgb(100,100,100);
+    font-family: 'Koh Santepheap', cursive;
+    font-size: 1vw;
+}
+
+.search-btn{
+    border: none;
+    width: 5vw; 
+    background-color: rgb(55,55,55);
+}.search-btn:hover{
+    cursor: pointer;
+}
+.search-icon-img{
+    width: 1.8vw; height: 1.8vw;
+}
+
+.recommended-topics{
+    display: flex;
+    justify-content: center; 
+    margin-top: 1vw;
+    padding: 0.5vw;
+    border-top: solid rgb(60, 60, 60) 0.1vw;
+    border-bottom: solid rgb(60,60,60) 0.1vw;
+}
+
+.nav-btns{
+    width:$nav-btn-size; height:$nav-btn-size;
+    border: none; border-radius: $nav-btn-size*2;
+    background-color: rgb(60, 60, 60);
+}
+
+.nav-btn-imgs{
+    width: $nav-btn-size - 1vw; height: $nav-btn-size - 1vw;
+}
+
+#prev-nav-btn{
+    margin-right: 25vw;
+}
+#next-nav-btn{
+    margin-left: 25vw;
+}
+
+.recommended-topic-btn{
+    border: solid rgb(210,210,210) 0.01vw ;
+    border-radius: 5vw;
+    margin-left: 0.5vw; margin-right: 0.5vw;
+    color: white;
+    background-color: rgb(60,60,60);
+}.recommended-topic-btn:hover{
+    background-color: rgb(120,120,120);
+    cursor: pointer;
+}
+
+.yt-logo-img{
+    margin-right: 2vw;
+}
+
+
+
+
+
+
