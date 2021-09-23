@@ -1,1 +1,75 @@
-/* No CSS *//*# sourceMappingURL=body_styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
+.recommended-videos-div {
+  display: -ms-grid;
+  display: grid;
+  color: white;
+  -ms-grid-columns: 30.5vw 30.5vw 30.5vw;
+      grid-template-columns: 30.5vw 30.5vw 30.5vw;
+  margin-top: 8vw;
+}
+
+.video-channel-img {
+  width: 4.5vw;
+  height: 4.5vw;
+  border: none;
+  border-radius: 5vw;
+}
+
+.video-channel-img:hover {
+  cursor: pointer;
+}
+
+.video-section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.video {
+  margin: 1vw;
+}
+
+.video-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+}
+
+.video-title:hover {
+  cursor: pointer;
+}
+
+.video-section-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 5fr;
+      grid-template-columns: 1fr 5fr;
+}
+
+.video-section-3 {
+  font-family: 'Dosis', sans-serif;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 5fr;
+      grid-template-columns: 1fr 5fr;
+  color: #969696;
+  font-size: 1.3vw;
+}
+
+.video-channel-name:hover {
+  color: #f0f0f0;
+  cursor: pointer;
+}
+
+.video-posted {
+  margin-left: 2vw;
+}
+
+.video-img:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=body_styles.css.map */
