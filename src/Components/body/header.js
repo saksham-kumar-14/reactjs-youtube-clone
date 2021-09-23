@@ -7,6 +7,7 @@ import recommended_topics from "./recommend_topics_api"
 import { useState } from "react/cjs/react.development";
 import { findRenderedComponentWithType } from "react-dom/test-utils";
 import youtube_logo from "../../assets/Images/UI images/youtube_logo.png"; 
+import available_vids from "../search page/avaiable_videos_api";
 
 function prev_topics(topics,set_topics){
     let first_place; 
@@ -47,19 +48,37 @@ function next_topics(topics,set_topics){
     }
     set_topics(arr); 
 }
+  
+function processing_search_results(search_input,set_search_results,available_vids){
+   let arr = []
+   for(let i=0;i<available_vids.length;i++){
+       if(available_vids[i].title.toLowerCase().includes(search_input.toLowerCase())){
+           arr.push(available_vids[i]);  
+       } 
+   }
 
+    set_search_results(arr); 
+}
 
-const Header=()=>{
+const Header=({search_input,set_search_results,set_search_input,set_searched})=>{
     const [topics,set_topics] = useState(recommended_topics.slice(0,3));
+    const [temp_input,set_temp_input] = useState("");  
 
     return(
         <>
-
+            <div className="header-division">
             <div className="searching-div">
-                <img className="yt-logo-img" src={youtube_logo}></img>
-                <input placeholder="Search" className="search-box"></input>
-                <button className="search-btn"><img className="search-icon-img" src={search_icon}></img></button>
-               
+                <button onClick={()=>{set_searched(false);}} className="yt-logo-btn"><img className="yt-logo-img" src={youtube_logo}></img></button>
+                <input onChange={
+                    (e)=>{
+                        set_temp_input(e.target.value) 
+                    }
+                } placeholder="Search" className="search-box"></input>
+                <button type="submit" onClick={()=>{
+                    set_searched(true); set_search_input(temp_input); 
+                    processing_search_results(temp_input,set_search_results,available_vids)
+                    }}className="search-btn"><img className="search-icon-img" src={search_icon}></img></button>
+                
             </div>
 
             <div className="recommended-topics">
@@ -73,7 +92,7 @@ const Header=()=>{
                 })}
                 <button onClick={()=>{next_topics(topics,set_topics)}} id="next-nav-btn" className="nav-btns"> <img className="nav-btn-imgs" src={next_btn_img}></img> </button>
             </div>
-        
+            </div>
 
         </>
     )

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 .searching-div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,32 +16,32 @@
   border: solid #646464 0.1vw;
   background-color: #1e1e1e;
   color: #d2d2d2;
-  font-family: 'Koh Santepheap', cursive;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1vw;
 }
 
 .search-box::-webkit-input-placeholder {
   color: #646464;
-  font-family: 'Koh Santepheap', cursive;
-  font-size: 1vw;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2  vw;
 }
 
 .search-box:-ms-input-placeholder {
   color: #646464;
-  font-family: 'Koh Santepheap', cursive;
-  font-size: 1vw;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2  vw;
 }
 
 .search-box::-ms-input-placeholder {
   color: #646464;
-  font-family: 'Koh Santepheap', cursive;
-  font-size: 1vw;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2  vw;
 }
 
 .search-box::placeholder {
   color: #646464;
-  font-family: 'Koh Santepheap', cursive;
-  font-size: 1vw;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2  vw;
 }
 
 .search-btn {
@@ -99,6 +100,7 @@
   margin-right: 0.5vw;
   color: white;
   background-color: #3c3c3c;
+  width: 8vw;
 }
 
 .recommended-topic-btn:hover {
@@ -108,5 +110,28 @@
 
 .yt-logo-img {
   margin-right: 2vw;
+  width: 10vw;
+  height: 2vw;
+}
+
+.yt-logo-btn {
+  border: none;
+  background-color: #1e1e1e;
+}
+
+.yt-logo-btn:hover {
+  cursor: pointer;
+}
+
+.header-division {
+  background-color: #1e1e1e;
+  position: fixed;
+  width: 100vw;
+  padding-top: 1vw;
+}
+
+.nav-btns:hover {
+  cursor: pointer;
+  background-color: #787878;
 }
 /*# sourceMappingURL=header_styles.css.map */

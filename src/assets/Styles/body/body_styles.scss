@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+.recommended-videos-div{
+    display: grid;
+    color: white;
+    grid-template-columns: 30.5vw 30.5vw 30.5vw;
+    margin-top: 8vw;
+}
+
+.video-channel-img{
+    width: 4.5vw; height: 4.5vw;
+    border: none;
+    border-radius: 5vw;
+}.video-channel-img:hover{cursor: pointer;}
+
+.video-section-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.video{
+    margin: 1vw;
+}
+.video-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+}.video-title:hover{
+    cursor: pointer;
+}
+
+.video-section-2{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.video-section-3{
+    font-family: 'Dosis', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    color: rgb(150,150,150);
+    font-size: 1.3vw;
+}.video-channel-name:hover{
+    color: rgb(240,240,240);
+    cursor: pointer;
+}
+.video-posted{
+    margin-left: 2vw;
+}.video-img:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
